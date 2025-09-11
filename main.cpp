@@ -74,3 +74,118 @@ using namespace std;
 //     cin >> radius;
 //     cout<<"Area: "<<radius*radius*3.14<<endl;
 // }
+
+
+//Problem 9
+// int main() {
+//     float v1, v0, t;
+//     cin >> v0 >> v1 >> t;
+//     float a = (v1-v0)/t;
+//     cout << a << endl;
+//     return 0;
+// }
+
+//Problem 10
+// int main() {
+//     float distance, efficiency, priceOfGallon;
+//
+// }
+
+//Problem 11
+// int main() {
+//     double x = 1.13e3, y=411e-4;
+//     cout << x << " "<<y << endl;
+//     return 0;
+// }
+
+//Problem 12
+// int main() {
+//     int number_of_students;
+//     cin >> number_of_students;
+//     cout <<"In first group: " <<number_of_students/11 << endl;
+//     cout <<"In last group: " <<number_of_students%11 << endl;
+// }
+
+//Problem 13
+// #include  "math.h"
+// int main() {
+//     double s;
+//     cin >> s;
+//     cout << "The are of hexagon is "<<((3*sqrt(3))/2)*s*s << endl;
+//     return 0;
+// }
+
+// Problem 14
+// int main() {
+//     int num=31;
+//     num++;
+//     num*=3;
+//     num-=14;
+//     num/=4;
+//     num-=1;
+//     num%=9;
+//     cout<<num<<endl;
+//     return 0;
+// }
+
+//Problem 15;
+// int main() {
+//     char a = 'A';
+//     cout << char(a+7)<<char(a+4)<< char(a+11)<<char(a+11)<<char(a+14)<<char(a-32)<<endl;
+//     return 0;
+// }
+
+//Problem 16
+// int main() {
+//     float x = 17;
+//     float y = 1;
+//     ++x;
+//     ++y;
+//     ++y;
+//     float z = (x + --x) / (y * --y); // (18 + 17) / (3 * 2)
+//     cout<< z << endl;
+// }
+
+//Problem 17
+// int main() {
+//     int a,b;
+//     cin>>a>>b;
+//     cout<<(a==b)<<endl;
+// }
+
+//Problem 18
+// int main() {
+//     int a, b;
+//     cin >> a >> b;
+//     cout <<((a<140)&&(a<b))<<endl;
+//     return 0;
+// }
+
+//Problem 19
+// int main() {
+//     int a,b,c;
+//     cin>>a>>b>>c;
+//     cout<<((a>b)&&(a>c));
+//     return 0;
+// }
+
+//Problem 20
+// int main() {
+//     int a,b,c,d,e;
+//     cin>>a>>b>>c>>d>>e;
+//     cout<<(a>0 || b>0 || c>0 || d>0 || e>0)<<endl;
+// }
+
+//Problem 21
+// int main() {
+//     int a, b;
+//     cin >> a >> b;
+//     cout <<((a+b)>30 && (a*b)>30)<<" "<<((a+(b-=10))>30 && (a*(b-=10))>30)<<" "<< (a>30 || b>30) <<endl;
+// }
+
+//Problem 22
+int main() {
+    float x,y;
+    cin>>x>>y;
+    cout<<((y*30.48)>x)<<endl;
+}
